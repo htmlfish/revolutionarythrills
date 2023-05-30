@@ -184,25 +184,6 @@ a {
   user-select: none;
 }
 
-.dot-prev,
-.dot-next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 20px 30px 20px 30px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  user-select: none;
-}
-
-.dot-prev:hover,
-.dot-next:hover {
-  color: #002868;
-}
-
 .next {
   position: absolute;
   right: 0;
