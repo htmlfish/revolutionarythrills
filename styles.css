@@ -16,6 +16,7 @@ header {
   justify-content: flex-end;
   color: #fff;
   padding: 10px;
+  position: fixed;
 }
 
 footer nav {
