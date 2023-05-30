@@ -184,6 +184,26 @@ a {
   user-select: none;
 }
 
+.dot-prev,
+.dot-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+}
+
+.dot-prev:hover,
+.dot-next:hover {
+  background-color: var(--primary-colour);
+  color: var(--secondary-colour);
+}
+
 .next {
   position: absolute;
   right: 0;
