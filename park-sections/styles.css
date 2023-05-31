@@ -312,9 +312,13 @@ footer p {
   white-space: nowrap;
 }
 
+.park-section {
+  padding: 20px;
+}
+
 .park-section a {
   color: var(--primary-colour);
-  font-size: 45px
+  font-size: 45px;
 }
 
 .park-sections-container {
