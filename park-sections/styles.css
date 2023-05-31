@@ -294,8 +294,8 @@ q {
 }
 
 .image img {
-  width: 300px;
-  height: auto;
+  height: 300px;
+  width: auto;
   display: inline;
   margin: 0px 50px 0px 50px;
   border: solid;
