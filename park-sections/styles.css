@@ -161,6 +161,29 @@ a {
   transform-origin: bottom left;
 }
 
+.underline-when-hovered-red {
+  display: inline-block;
+  position: relative;
+}
+
+.underline-when-hovered-red:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-colour);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-when-hovered-red:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .slideshow-container {
   position: relative;
   background: #fff;
@@ -289,14 +312,15 @@ footer p {
   white-space: nowrap;
 }
 
-.park-section {
-  
+.park-section a {
+  color: var(--primary-colour);
+  font-size: 45px
 }
 
 .park-sections-container {
-  padding: 40px 20px 40px 20px;
+  padding: 20px 40px 20px 40px;
 }
 
 .park-section-description {
-  
+  font-size: 18px;
 }
