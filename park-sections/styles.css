@@ -45,7 +45,11 @@ footer nav ul li:first-child {
 }
 
 footer a {
-  text-decoration: none;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
 }
 
 header nav ul {
@@ -68,7 +72,6 @@ header nav ul li:first-child {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -267,7 +270,7 @@ q {
   position: relative;
 }
 
-.image {
+.image img {
   max-width: 100%;
   height: auto;
   display: inline;
