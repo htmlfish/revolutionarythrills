@@ -266,13 +266,6 @@ q {
   border-color: var(--primary-colour);
 }
 
-#about-title {
-  font-size: 52px;
-}
-
-#about-content {
-}
-
 #about-text {
   font-size: 18px;
 }
@@ -312,20 +305,23 @@ footer p {
   white-space: nowrap;
 }
 
-.park-section {
-  padding: 30px 20px 0px 20px;
-}
-
-.park-section a {
+.ride-title {
+  padding: 15px 0px 0px 0px;
   color: var(--primary-colour);
   font-size: 45px;
 }
 
-.park-sections-container {
+.rides-container {
   padding: 20px 40px 20px 40px;
 }
 
-.park-section-description {
+.ride-description {
   font-size: 18px;
   padding: 20px;
+}
+
+.title {
+  padding: 0px 0px 0px 100px;
+  color: var(--secondary-colour);
+  font-size: 52px;
 }
