@@ -307,9 +307,6 @@ footer p {
 
 .ride-title {
   padding: 30px 20px 0px 20px;
-}
-
-{
   color: var(--primary-colour);
   font-size: 45px;
 }
@@ -321,4 +318,10 @@ footer p {
 .ride-description {
   font-size: 18px;
   padding: 20px;
+}
+
+.title {
+  padding: 30px 20px 0px 20px;
+  color: var(--secondary-colour);
+  font-size: 52px;
 }
