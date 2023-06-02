@@ -294,10 +294,10 @@ q {
 }
 
 .image img {
-  height: 750px;
+  height: 500px;
   width: auto;
   display: inline;
-  margin: 0px 50px 0px 50px;
+  margin: 50px 50px 50px 50px;
   border: solid;
   border-color: black;
   background-color: var(--primary-colour);
